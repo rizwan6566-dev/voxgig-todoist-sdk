@@ -1,0 +1,43 @@
+# README wording — YOURS. The scaffold creates this file once and never
+# overwrites it.
+#
+# A slot set here words the generated README files over the same slot of
+# main.kit.info, where apidef puts the spec's metadata. A slot left out keeps
+# the spec's wording. Text edited into a generated README is lost on the next
+# generate; text here is not.
+#
+#   main: kit: text: {
+#     tagline: 'Payments, invoices and refunds from TypeScript, Go and Python.'
+#     summary: 'Acme Pay is a payments API for marketplaces.'
+#     entity_desc: { invoice: 'A bill sent to a customer.' }
+#   }
+#
+# The slots are title, summary, website, tagline, about_md, homepage,
+# docs_url, meta_source and entity_desc. Any other key fails the model build.
+
+main: kit: text: {
+  title: 'Voxgig Todoist Client'
+  summary: 'An unofficial TypeScript SDK for the Todoist API, generated from Todoist’s public OpenAPI 3.1 definition using Voxgig SDK Generator.'
+  tagline: 'Type-safe Todoist API access generated with Voxgig SDK Generator.'
+  website: 'https://developer.todoist.com/api/v1/'
+  docs_url: 'https://developer.todoist.com/api/v1/'
+  about_md: `
+## Authentication
+
+Todoist requires a bearer token. Create a personal API token in Todoist **Settings → Integrations → Developer**, then pass it as the SDK's \`apikey\` option. The SDK adds the \`Bearer \` prefix and sends it in the \`Authorization\` header.
+
+Use an environment variable; never commit a token:
+
+\`\`\`ts
+const client = new VoxgigTodoistSdkSDK({
+  apikey: process.env.TODOIST_API_TOKEN,
+})
+\`\`\`
+
+See [examples/basic.cjs](examples/basic.cjs) for a runnable projects-and-tasks example and [.env.example](.env.example) for the required variable.
+
+## Known limitations
+
+The official specification does not declare a reusable security scheme, so bearer authentication is a project-level model correction. The generator also reports six route-selector ambiguities for similarly shaped Todoist mutation endpoints; use \`direct()\` for those endpoints until their operation model is refined.
+`
+}

@@ -1,0 +1,84 @@
+{
+  "existing": {
+    "project_import_create_response_with_object": {
+      "PROJECT_IMPORT_CREATE_RESPONSE_WITH_OBJECT00": {
+        "comments": [],
+        "discarded_fields": [],
+        "file": "s8e",
+        "name": "s8f",
+        "project_id": "PROJECT01",
+        "project_notes": [],
+        "project_view_options_defaults": [],
+        "projects": [],
+        "reminders": [],
+        "sections": [],
+        "status": "s96",
+        "tasks": [],
+        "template_type": "s98",
+        "workspace_id": "WORKSPACE01",
+        "id": "PROJECT_IMPORT_CREATE_RESPONSE_WITH_OBJECT00"
+      },
+      "PROJECT_IMPORT_CREATE_RESPONSE_WITH_OBJECT01": {
+        "comments": [],
+        "discarded_fields": [],
+        "file": "s11a",
+        "name": "s11b",
+        "project_id": "PROJECT01",
+        "project_notes": [],
+        "project_view_options_defaults": [],
+        "projects": [],
+        "reminders": [],
+        "sections": [],
+        "status": "s122",
+        "tasks": [],
+        "template_type": "s124",
+        "workspace_id": "WORKSPACE01",
+        "id": "PROJECT_IMPORT_CREATE_RESPONSE_WITH_OBJECT01"
+      },
+      "PROJECT_IMPORT_CREATE_RESPONSE_WITH_OBJECT02": {
+        "comments": [],
+        "discarded_fields": [],
+        "file": "s1a6",
+        "name": "s1a7",
+        "project_id": "PROJECT01",
+        "project_notes": [],
+        "project_view_options_defaults": [],
+        "projects": [],
+        "reminders": [],
+        "sections": [],
+        "status": "s1ae",
+        "tasks": [],
+        "template_type": "s1b0",
+        "workspace_id": "WORKSPACE01",
+        "id": "PROJECT_IMPORT_CREATE_RESPONSE_WITH_OBJECT02"
+      }
+    }
+  },
+  "new": {
+    "project_import_create_response_with_object": {
+      "project_import_create_response_with_object_ref01": {
+        "comments": [],
+        "discarded_fields": [],
+        "file": "s232",
+        "name": "s233",
+        "project_id": "PROJECT01",
+        "project_notes": [],
+        "project_view_options_defaults": [],
+        "projects": [],
+        "reminders": [],
+        "sections": [],
+        "status": "s23a",
+        "tasks": [],
+        "template_type": "s23c",
+        "workspace_id": "WORKSPACE01"
+      }
+    }
+  },
+  "requests": {
+    "POST /api/v1/templates/create_project_from_file": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}
