@@ -37,6 +37,12 @@ main: kit: config: {
   }
 }
 
+# Preserve the repository owner's MIT copyright on every regeneration.
+main: kit: publisher: {
+  name: 'Muhammad Rizwan Manzoor'
+  url: 'https://github.com/rizwan6566-dev'
+}
+
 # The generated package is intentionally unscoped until npm publishing is
 # configured under the repository owner's npm account.
 main: kit: target: ts: publish: registry: package: 'voxgig-todoist-sdk'

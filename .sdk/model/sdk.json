@@ -11597,7 +11597,7 @@
               "h": "Inviter Id",
               "n": "inviter_id",
               "r": true,
-              "sh": "ID of the user user who sent the invitation",
+              "sh": "ID of the user who sent the invitation",
               "t": "`$STRING`"
             },
             "role": {
@@ -13996,9 +13996,9 @@
         }
       },
       "publisher": {
-        "name": "",
+        "name": "Muhammad Rizwan Manzoor",
         "security": "",
-        "url": ""
+        "url": "https://github.com/rizwan6566-dev"
       },
       "repo": {
         "host": "github.com",

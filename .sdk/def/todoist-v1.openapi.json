@@ -16259,7 +16259,7 @@
           "inviter_id": {
             "type": "string",
             "title": "Inviter Id",
-            "description": "ID of the user user who sent the invitation",
+            "description": "ID of the user who sent the invitation",
             "examples": [
               "1029384756"
             ]

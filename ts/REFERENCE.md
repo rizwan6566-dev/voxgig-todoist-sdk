@@ -4271,7 +4271,7 @@ const workspace_invitation_view = client.WorkspaceInvitationView()
 | --- | --- | --- | --- |
 | `app` | `string` | No | Product the invitation was sent from. |
 | `id` | `string` | No | The ID of the invitation |
-| `inviter_id` | `string` | Yes | ID of the user user who sent the invitation |
+| `inviter_id` | `string` | Yes | ID of the user who sent the invitation |
 | `role` | `string` | Yes | Workspace role granted by the invitation. |
 | `user_email` | `string` | Yes | The invited person's email. |
 | `workspace_id` | `string` | Yes | ID of the workspace |

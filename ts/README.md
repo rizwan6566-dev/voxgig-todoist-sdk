@@ -1300,7 +1300,7 @@ API path: `/api/v1/workspaces/{workspace_id}`
 | --- | --- |
 | `app` | Product the invitation was sent from. |
 | `id` | The ID of the invitation |
-| `inviter_id` | ID of the user user who sent the invitation |
+| `inviter_id` | ID of the user who sent the invitation |
 | `role` | Workspace role granted by the invitation. |
 | `user_email` | The invited person's email. |
 | `workspace_id` | ID of the workspace |
@@ -3102,7 +3102,7 @@ Create an instance: `const workspace_invitation_view = client.WorkspaceInvitatio
 | --- | --- | --- |
 | `app` | `string` | Product the invitation was sent from. |
 | `id` | `string` | The ID of the invitation |
-| `inviter_id` | `string` | ID of the user user who sent the invitation |
+| `inviter_id` | `string` | ID of the user who sent the invitation |
 | `role` | `string` | Workspace role granted by the invitation. |
 | `user_email` | `string` | The invited person's email. |
 | `workspace_id` | `string` | ID of the workspace |

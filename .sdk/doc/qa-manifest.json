@@ -44,7 +44,7 @@
       "Human-readable label of the cancellation reason.",
       "ID of the project created from the template.",
       "ID of the user to assign the task to.",
-      "ID of the user user who sent the invitation",
+      "ID of the user who sent the invitation",
       "ISO currency code every amount in this response is in. Fixed for the life of the account: the first top-up pins the price, and the price fixes the currency. A user who has not topped up yet reads the currency they will be charged in.",
       "ISO currency code.",
       "Image URL for image uploads, or `null` for non-image files.",

@@ -10262,7 +10262,7 @@ class Config {
           "title": "Inviter Id",
           "type": "`$STRING`",
           "req": true,
-          "short": "ID of the user user who sent the invitation"
+          "short": "ID of the user who sent the invitation"
         },
         {
           "name": "role",

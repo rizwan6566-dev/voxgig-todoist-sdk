@@ -716,7 +716,7 @@ Key fields to recognise:
 
 - `app`: Product the invitation was sent from.
 - `id`: The ID of the invitation
-- `inviter_id`: ID of the user user who sent the invitation
+- `inviter_id`: ID of the user who sent the invitation
 - `role`: Workspace role granted by the invitation.
 - `user_email`: The invited person&#39;s email.
 
